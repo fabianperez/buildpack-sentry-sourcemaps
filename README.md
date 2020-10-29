@@ -64,7 +64,7 @@ module.exports = {
 
 Then add this buildpack to your app:
 
-    heroku buildpacks:add https://github.com/WebGrind/buildpack-sentry-sourcemaps
+    heroku buildpacks:add https://github.com/SuperNormalCo/buildpack-sentry-sourcemaps
 
 And push a new relase.
 
