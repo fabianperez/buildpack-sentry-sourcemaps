@@ -87,4 +87,7 @@ done
 
 rm "${files}"
 
+# Prevent sourcemaps from appearing in prod
+rm build/static/js/*.map
+
 echo "       Done!"
