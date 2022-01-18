@@ -86,5 +86,6 @@ for map in $(find . -name '*.js.map' -not -path './node_modules/*' -not -path '.
 done
 
 rm "${files}"
+rm build/static/js/*.map
 
 echo "       Done!"
